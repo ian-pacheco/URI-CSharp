@@ -5,6 +5,58 @@ namespace ExerciciosFixacao
 {
     class Program
     {
+        #region Exercícios Propostos
+
+        #region Exercício 02
+
+        //static void Main(string[] args)
+        //{
+        //    double b, a, area, perimetro, diagonal;
+
+        //    b = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        //    a = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+        //    area = b * a;
+        //    perimetro = 2 * (b + a);
+        //    diagonal = Math.Sqrt(Math.Pow(b, 2.0) + Math.Pow(a, 2.0));
+
+        //    Console.WriteLine("Área = " + area.ToString("F4", CultureInfo.InvariantCulture));
+        //    Console.WriteLine("Perímetro = " + perimetro.ToString("F4", CultureInfo.InvariantCulture));
+        //    Console.WriteLine("Diagonal = " + diagonal.ToString("F4", CultureInfo.InvariantCulture));
+
+        //    Console.ReadLine();
+        //}
+
+        #endregion
+
+        #region Exercício 03
+        //static void Main(string[] args)
+        //{
+        //    string nome1, nome2;
+        //    int idade1, idade2;
+        //    double media;
+
+        //    string[] vet;
+
+        //    vet = Console.ReadLine().Split(' ');
+        //    nome1 = vet[0];
+        //    idade1 = int.Parse(vet[1]);
+        //    vet = Console.ReadLine().Split(' ');
+        //    nome2 = vet[0];
+        //    idade2 = int.Parse(vet[1]);
+
+        //    media = (idade1 + idade2) / 2.0;
+
+        //    Console.WriteLine("A idade média de Maria é " + nome1 + " e " + nome2 + " é de " 
+        //        + media.ToString("F1", CultureInfo.InvariantCulture) + " anos");
+
+        //    Console.ReadLine();
+        //}
+
+        #endregion
+
+        #endregion
+
         #region URI INICIANTE
 
         #region URI 1001 - Extremamente Básico
@@ -128,6 +180,10 @@ namespace ExerciciosFixacao
         //}
         #endregion
 
+        #region URI 1009 - String
+
+        #endregion
+
         #region URI 1010 - Cálculo Simples
         //static void Main(string[] args)
         //{
@@ -156,6 +212,18 @@ namespace ExerciciosFixacao
         //}
         #endregion
 
+        #region URI 1011 - Casting
+
+        #endregion
+
+        #region URI 1012 - Geometria
+
+        #endregion
+
+        #region URI 1013 - Abs
+
+        #endregion
+
         #region URI 1014 - Consumo
         //static void Main(string[] args)
         //{
@@ -171,6 +239,10 @@ namespace ExerciciosFixacao
 
         //    Console.ReadLine();
         //}
+        #endregion
+
+        #region URI 1015 - Sqrt, Pow
+
         #endregion
 
         #region URI 1016 - Distância
@@ -189,21 +261,21 @@ namespace ExerciciosFixacao
         #endregion
 
         #region URI 1017 - Gasto de Combustível
-        static void Main(string[] args)
-        {
-            const int c = 12;
-            int t, vm;
-            double s;
+        //static void Main(string[] args)
+        //{
+        //    const int c = 12;
+        //    int t, vm;
+        //    double s;
 
-            t = int.Parse(Console.ReadLine());
-            vm = int.Parse(Console.ReadLine());
+        //    t = int.Parse(Console.ReadLine());
+        //    vm = int.Parse(Console.ReadLine());
 
-            s = (double)(t * vm) / c;
+        //    s = (double)(t * vm) / c;
 
-            Console.WriteLine(s.ToString("F3", CultureInfo.InvariantCulture));
+        //    Console.WriteLine(s.ToString("F3", CultureInfo.InvariantCulture));
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
         #endregion
 
         #endregion
